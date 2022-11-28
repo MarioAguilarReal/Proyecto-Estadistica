@@ -433,7 +433,7 @@ void varianza_uno(){
     }
 
     contador++;
-    varianza=sum/(v.n-1);
+    varianza=sum/(v.n);
     cout<<"LA VARIANZA ES: "<<varianza<<endl<<"Los pasos requeridos para realizar esta operacion fueron: "<<contador<<endl;
 }
 
